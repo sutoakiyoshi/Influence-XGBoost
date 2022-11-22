@@ -35,7 +35,7 @@ class OriginalXgBoostDecisoinTree:
         return np.array(pred)
 
 
-class InfluencedXgBoost:
+class InfluenceXgBoost:
     """
         only binay classification
     """
