@@ -5,7 +5,7 @@ import gc
 from scipy import stats
 from sklearn.metrics import f1_score
 
-# 分類時の負例は０
+
 class OriginalXgBoostDecisoinTree:
     def __init__(self, log_odds, max_depth,class_weight=None, min_sample=1,
     feature_select='all',lamda=1,imbalanced_weight=False, focal_loss=False):
