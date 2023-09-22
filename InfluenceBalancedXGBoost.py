@@ -337,6 +337,8 @@ class OriginalXgBoostDecisoinTree:
         return 0
 
 
+
+
 class InfluenceBalancedXgBoost:
     def __init__(self, max_depth,class_weight=None, min_sample=10, feature_select='all',lamda=1,
                 n_estimator = 10,learning_rate = 1, 
