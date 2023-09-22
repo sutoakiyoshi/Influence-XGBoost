@@ -1,2 +1,4 @@
-# Influence-XGBoost
-implementation of Influence-XGBoost
+# Influence-Balanced XGBoost
+implementation of Influence-Balanced XGBoost
+
+
